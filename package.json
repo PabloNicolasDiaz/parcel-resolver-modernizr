@@ -1,6 +1,6 @@
 {
   "name": "parcel-resolver-modernizr",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Parcel 2.0 resolver for modernizr",
   "main": "lib/resolver-modernizr.js",
   "engines": {
