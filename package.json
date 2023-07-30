@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "description": "Parcel 2.0 resolver for modernizr",
   "main": "lib/resolver-modernizr.js",
+  "type": "commonjs",
   "engines": {
     "parcel": "2.x",
     "node": ">= 12.22.12",
