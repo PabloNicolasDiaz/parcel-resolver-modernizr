@@ -48,6 +48,9 @@ describe("parcel-resolver-modernizr", function () {
       assert.deepEqual(resolvedResource, {
         code: modernizrOutput,
         filePath: theFilePath,
+        bundleBehavior: "isolated",
+        isSource: false,
+        isBundleSplittable: false,
       });
     });
 

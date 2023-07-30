@@ -30,7 +30,7 @@ This plugins needs Modernizr to be installed in your project devDependencies
 ./src/index.html:
 
 ```html
-<script src="modernizr.js"></script>
+<script type="module" src="modernizr.js"></script>
 ```
 
 ./src/modernizr-config.json: Your modernizr config
