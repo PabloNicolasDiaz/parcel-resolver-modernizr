@@ -4,6 +4,11 @@
   "description": "Parcel 2.0 resolver for modernizr",
   "main": "lib/resolver-modernizr.js",
   "type": "commonjs",
+  "contributors": [
+    {
+      "name": "Pablo Nicolas Diaz Bilotto"
+    }
+  ],
   "engines": {
     "parcel": "2.x",
     "node": ">= 12.22.12",
