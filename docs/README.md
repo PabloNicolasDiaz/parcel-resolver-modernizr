@@ -1,6 +1,6 @@
 # parcel-resolver-modernizr
 
-[![](https://img.shields.io/npm/v/parcel-resolver-modernizr)](https://www.npmjs.com/package/parcel-resolver-modernizr) [![](https://img.shields.io/npm/dm/parcel-resolver-modernizr?style=plastic)](https://www.npmjs.com/package/parcel-resolver-modernizr)
+[![](https://img.shields.io/npm/v/parcel-resolver-modernizr?style=plastic)](https://www.npmjs.com/package/parcel-resolver-modernizr) [![](https://img.shields.io/npm/dm/parcel-resolver-modernizr?style=plastic)](https://www.npmjs.com/package/parcel-resolver-modernizr)
 
 A [Parcel](https://github.com/parcel-bundler/parcel) resolver for custom [Modernizr](https://github.com/Modernizr/Modernizr) builds, migrate/inspired in [parcel-plugin-modernizr](https://github.com/hirasso/parcel-plugin-modernizr/)
 
