@@ -8,7 +8,7 @@ A [Parcel](https://github.com/parcel-bundler/parcel) resolver for custom [Modern
 
 #### Using NPM
 
-```
+```bash
 $ npm install parcel-resolver-modernizr -D
 ```
 
@@ -20,7 +20,7 @@ This plugins needs Modernizr to be installed in your project devDependencies
 
 2. Include "parcel-resolver-modernizr" in your .parcelrc config file, remember to add all the resolvers previously configured
 
-```
+```json
 {
   "extends": "@parcel/config-default",
   "resolvers": ["parcel-resolver-modernizr", "..."]
@@ -39,7 +39,7 @@ This option is similar to [parcel-plugin-modernizr](https://github.com/hirasso/p
 
 ./src/modernizr-config.json: Your modernizr config
 
-```
+```bash
 $ parcel ./src/index.html
 ```
 
