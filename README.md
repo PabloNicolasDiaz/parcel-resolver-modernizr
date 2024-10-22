@@ -29,7 +29,7 @@ This plugins needs Modernizr to be installed in your project devDependencies
 
 ## Usage: Embedded in html
 
-This option is similar to [parcel-plugin-modernizr](https://github.com/hirasso/parcel-plugin-modernizr) usage option 1. Where you include the "modernizr.js" js module in your index.html file
+This option is similar to [parcel-plugin-modernizr](https://github.com/hirasso/parcel-plugin-modernizr) usage option 1. Where you can include the "modernizr.js" js module in your index.html file
 
 ./src/index.html:
 
@@ -53,10 +53,23 @@ $ parcel ./src/index.html
 
 2. ./dist/index.contentHash.js: Your custom modernizr build
 
+## Usage: Imported as a ESM module
+
+You can also retrieve Modernizr as a ESM module in your js/ts code using an
+import statement.
+
+./src/main.tsx:
+
+```ts
+import Modernizr from "modernizr";
+...
+const batteryEnabled = Modernizr.batteryapi;
+```
+
 ## Limitations
 
 1. package.json option is currently unavailiable
-2. resource name 'modernizr.js' is not configurable
+2. resource names 'modernizr.js' and 'modernizr' are not configurable
 
 ## Contributing
 
