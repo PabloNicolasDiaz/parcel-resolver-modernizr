@@ -16,7 +16,7 @@
   "main": "lib/resolver-modernizr.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PabloNicolasDiaz/parcel-resolver-modernizr.git"
+    "url": "git+https://github.com/PabloNicolasDiaz/parcel-resolver-modernizr.git"
   },
   "scripts": {
     "test": "nyc --reporter=html --reporter=text mocha --timeout 50000",
