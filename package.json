@@ -20,18 +20,18 @@
   },
   "scripts": {
     "test": "nyc --reporter=html --reporter=text mocha --timeout 50000",
-    "prepare": "husky install"
+    "prepare": "if [[ ${HUSKY:-0} == \"0\" ]]; then husky install; fi"
   },
   "type": "commonjs",
   "devDependencies": {
-    "@commitlint/cli": "^17.6.7",
-    "@commitlint/config-conventional": "^17.6.7",
-    "@parcel/plugin": "^2.9.3",
+    "@commitlint/cli": "^17.8.1",
+    "@commitlint/config-conventional": "^17.8.1",
+    "@parcel/plugin": "^2.16.4",
     "esprima": "^4.0.1",
     "estraverse": "^5.3.0",
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.3",
-    "mocha": "^10.2.0",
+    "lint-staged": "^13.3.0",
+    "mocha": "^11.7.5",
     "nyc": "^15.1.0",
     "prettier": "3.0.0",
     "proxyquire": "^2.1.3",
