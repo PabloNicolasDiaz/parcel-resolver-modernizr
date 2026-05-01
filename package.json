@@ -20,7 +20,7 @@
   },
   "scripts": {
     "test": "nyc --reporter=html --reporter=text mocha --timeout 50000",
-    "prepare": "if [[ ${HUSKY:-0} == \"0\" ]]; then husky install; fi"
+    "prepare": "if [[ ${HUSKY:-0} == \"0\" ]]; then husky; fi"
   },
   "type": "commonjs",
   "devDependencies": {
