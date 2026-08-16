@@ -1,6 +1,6 @@
 {
   "name": "parcel-resolver-modernizr",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Parcel 2.0 resolver for modernizr",
   "keywords": [
     "parcel",
